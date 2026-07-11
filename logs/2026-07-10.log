@@ -1,0 +1,13 @@
+2026-07-10 23:29:24 — [INFO] === El Fermentario Inventory System Started ===
+2026-07-10 23:29:24 — [INFO] Inventory loaded successfully from /home/gabriel_rojas/kombucha-inventory-control/inventory_data.json (2 flavors)
+2026-07-10 23:30:05 — [WARNING] New flavor 'testing' created
+2026-07-10 23:30:06 — [INFO] Movement successful: entry testing | Qty: 5 | Stock: 0 → 5
+2026-07-10 23:30:06 — [INFO] Inventory saved to /home/gabriel_rojas/kombucha-inventory-control/inventory_data.json
+2026-07-10 23:30:18 — [INFO] User requested inventory view
+2026-07-10 23:30:18 — [INFO] Inventory view displayed (3 flavors)
+2026-07-10 23:30:21 — [WARNING] Invalid menu option selected: 'a'
+2026-07-10 23:30:51 — [WARNING] New flavor 'zzz' created
+2026-07-10 23:30:57 — [ERROR] Movement failed: exit zzz | Qty: 10 | Reason: Error: Insufficient stock
+2026-07-10 23:30:57 — [WARNING] LOW STOCK for 'zzz': current=0, minimum=0
+2026-07-10 23:30:57 — [INFO] Inventory saved to /home/gabriel_rojas/kombucha-inventory-control/inventory_data.json
+2026-07-10 23:31:06 — [INFO] User exited the system

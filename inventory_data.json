@@ -1,0 +1,22 @@
+{
+    "prueba": {
+        "lot_number": "7",
+        "current_stock": 7,
+        "minimum_stock": 3
+    },
+    "*": {
+        "lot_number": "-",
+        "current_stock": 9,
+        "minimum_stock": 0
+    },
+    "testing": {
+        "lot_number": "xxx",
+        "current_stock": 5,
+        "minimum_stock": 3
+    },
+    "zzz": {
+        "lot_number": "000",
+        "current_stock": 0,
+        "minimum_stock": 0
+    }
+}
