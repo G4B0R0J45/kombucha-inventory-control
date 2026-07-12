@@ -1,22 +1,35 @@
 {
-    "prueba": {
-        "lot_number": "7",
-        "current_stock": 7,
-        "minimum_stock": 3
+    "flavors": {
+        "Earl grey": {
+            "minimum_stock": 0
+        },
+        "Flores": {
+            "minimum_stock": 0
+        },
+        "Jamaica con lúpulo": {
+            "minimum_stock": 0
+        },
+        "Jengibre con cardamomo": {
+            "minimum_stock": 0
+        },
+        "Limón con hierbabuena": {
+            "minimum_stock": 0
+        },
+        "Naranja": {
+            "minimum_stock": 0
+        },
+        "Naranja con albahaca y clavo": {
+            "minimum_stock": 0
+        },
+        "Naranja con coriandro y clavo": {
+            "minimum_stock": 0
+        },
+        "Piña con chile": {
+            "minimum_stock": 0
+        }
     },
-    "*": {
-        "lot_number": "-",
-        "current_stock": 9,
-        "minimum_stock": 0
-    },
-    "testing": {
-        "lot_number": "xxx",
-        "current_stock": 5,
-        "minimum_stock": 3
-    },
-    "zzz": {
-        "lot_number": "000",
-        "current_stock": 0,
-        "minimum_stock": 0
-    }
+    "staff": [
+        "CAROLINA",
+        "ESTEBAN"
+    ]
 }

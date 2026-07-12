@@ -1,0 +1,415 @@
+﻿movement_id,date_time,staff_name,flavor_name,lot_number,movement_type,bottle_quantity,note
+1,2026-03-19 00:00:00,ESTEBAN,Limón con hierbabuena,LOT202603-K73,entry,39,Inicio de app
+2,2026-03-19 00:00:00,ESTEBAN,Jengibre con cardamomo,LOT202602-K66,entry,2,Inicio de app
+3,2026-03-19 00:00:00,ESTEBAN,Jengibre con cardamomo,LOT202602-K71,entry,37,Inicio de app
+4,2026-03-19 00:00:00,ESTEBAN,Naranja con albahaca y clavo,LOT202602-K70,entry,9,Inicio de app
+5,2026-03-19 00:00:00,ESTEBAN,Piña con chile,LOT202602-K72,entry,45,Inicio de app
+6,2026-03-19 00:00:00,ESTEBAN,Naranja con albahaca y clavo,LOT202602-K72,entry,47,Inicio de app
+7,2026-03-19 00:00:00,ESTEBAN,Jamaica con lúpulo,LOT202602-K69,entry,48,Inicio de app
+8,2026-03-20 00:00:00,ESTEBAN,Piña con chile,,exit,6,Chispa negra [AppSheet lot: LOT202602-K72]
+9,2026-03-20 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,6,Chispa negra [AppSheet lot: LOT202602-K69]
+10,2026-03-20 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,6,Chispa negra [AppSheet lot: LOT202602-K70]
+11,2026-03-20 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,Tama shokudo [AppSheet lot: LOT202603-K73]
+12,2026-03-20 00:00:00,ESTEBAN,Piña con chile,,exit,12,Tama shokudo [AppSheet lot: LOT202602-K72]
+13,2026-03-21 00:00:00,CAROLINA,Piña con chile,LOT202603-K74,entry,47,Embotellado
+14,2026-03-21 00:00:00,CAROLINA,Limón con hierbabuena,,exit,3,Venta directa [AppSheet lot: LOT202603-K73]
+15,2026-03-21 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,3,Venta directa [AppSheet lot: LOT202602-K70]
+16,2026-03-21 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,2,Venta directa [AppSheet lot: LOT202602-K66]
+17,2026-03-21 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,Venta directa [AppSheet lot: LOT202602-K71]
+18,2026-03-21 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,Venta directa [AppSheet lot: LOT202602-K69]
+19,2026-03-21 00:00:00,CAROLINA,Piña con chile,,exit,2,Venta directa [AppSheet lot: LOT202602-K72]
+20,2026-03-22 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,Catalina [AppSheet lot: LOT202602-K71]
+21,2026-03-22 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,5,Catalina [AppSheet lot: LOT202602-K72]
+22,2026-03-23 00:00:00,CAROLINA,Limón con hierbabuena,LOT202603-K73,entry,51,EMBOTELLADO
+23,2026-03-23 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202602-K70,entry,46,EMBOTELLADO
+24,2026-03-23 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,1,AJUSTE [AppSheet lot: LOT202602-K69]
+25,2026-03-23 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,1,AJUSTE [AppSheet lot: LOT202602-K72]
+26,2026-03-24 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,5,CATALINA [AppSheet lot: LOT202603-K73]
+27,2026-03-24 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,CATALINA [AppSheet lot: LOT202602-K71]
+28,2026-03-24 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,5,CATALINA [AppSheet lot: LOT202602-K69]
+29,2026-03-24 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,VIVA L B [AppSheet lot: LOT202603-K73]
+30,2026-03-24 00:00:00,ESTEBAN,Piña con chile,,exit,12,VIVA L B [AppSheet lot: LOT202602-K72]
+31,2026-03-24 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,5,WELTY [AppSheet lot: LOT202603-K73]
+32,2026-03-24 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,5,WELTY [AppSheet lot: LOT202602-K72]
+33,2026-03-24 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,2,WELTY [AppSheet lot: LOT202602-K69]
+34,2026-03-25 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,20,AMAZA [AppSheet lot: LOT202602-K69]
+35,2026-03-25 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,20,AMAZA [AppSheet lot: LOT202602-K72]
+36,2026-03-27 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202602-K69,entry,47,EMBOTELLADO
+37,2026-03-27 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202603-K73,entry,47,EMBOTELLADO
+38,2026-03-30 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202603-K74]
+39,2026-03-30 00:00:00,ESTEBAN,Piña con chile,,exit,6,AJUSTE [AppSheet lot: LOT202602-K72]
+40,2026-03-30 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,BARETTO [AppSheet lot: LOT202602-K71]
+41,2026-03-30 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,6,MUR MURA [AppSheet lot: LOT202602-K71]
+42,2026-03-30 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,6,MUR MURA [AppSheet lot: LOT202602-K72]
+43,2026-03-30 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,5,BARETTO [AppSheet lot: LOT202602-K72]
+44,2026-03-30 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K72]
+45,2026-03-30 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K69]
+46,2026-03-30 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,2,DIRECTA [AppSheet lot: LOT202603-K73]
+47,2026-03-30 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,1,Directa [AppSheet lot: LOT202603-K73]
+48,2026-03-31 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,4,directa [AppSheet lot: LOT202602-K72]
+49,2026-03-31 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,FLAMEL [AppSheet lot: LOT202603-K73]
+50,2026-04-01 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,5,HUMO [AppSheet lot: LOT202602-K70]
+51,2026-04-01 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,5,HUMO [AppSheet lot: LOT202602-K71]
+52,2026-04-01 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,5,HUMO [AppSheet lot: LOT202602-K69]
+53,2026-04-01 00:00:00,ESTEBAN,Piña con chile,,exit,3,CATALINA [AppSheet lot: LOT202602-K72]
+54,2026-04-01 00:00:00,ESTEBAN,Piña con chile,,exit,2,CATALINA [AppSheet lot: LOT202603-K74]
+55,2026-04-01 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,3,CATALINA [AppSheet lot: LOT202602-K70]
+56,2026-04-01 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,5,CATALINA [AppSheet lot: LOT202602-K69]
+57,2026-04-02 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,6,MOMU [AppSheet lot: LOT202603-K73]
+58,2026-04-02 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,6,MOMU [AppSheet lot: LOT202602-K69]
+59,2026-04-02 00:00:00,ESTEBAN,Piña con chile,,exit,2,NITIDO [AppSheet lot: LOT202602-K72]
+60,2026-04-02 00:00:00,ESTEBAN,Piña con chile,,exit,10,NITIDO [AppSheet lot: LOT202603-K74]
+61,2026-04-02 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,NITIDO [AppSheet lot: LOT202603-K73]
+62,2026-04-02 00:00:00,ESTEBAN,Piña con chile,,exit,2,DIRECTA [AppSheet lot: LOT202603-K74]
+63,2026-04-02 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K70]
+64,2026-04-02 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K71]
+65,2026-04-02 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202603-K76,entry,49,EMBOTELLADO
+66,2026-04-02 00:00:00,CAROLINA,Piña con chile,LOT202603-K76,entry,55,EMBOTELLADO
+67,2026-04-02 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,3,DIRECTA [AppSheet lot: LOT202602-K71]
+68,2026-04-02 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,3,DIRECTA [AppSheet lot: LOT202602-K70]
+69,2026-04-03 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,8,AMAZA [AppSheet lot: LOT202602-K69]
+70,2026-04-03 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,6,AROMA [AppSheet lot: LOT202602-K69]
+71,2026-04-03 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,8,AMAZA [AppSheet lot: LOT202602-K70]
+72,2026-04-03 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,6,AROMA [AppSheet lot: LOT202602-K70]
+73,2026-04-03 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,20,YAAXTAL [AppSheet lot: LOT202603-K73]
+74,2026-04-03 00:00:00,ESTEBAN,Piña con chile,,exit,2,YAAXTAL [AppSheet lot: LOT202602-K72]
+75,2026-04-03 00:00:00,ESTEBAN,Piña con chile,,exit,32,YAAXTAL [AppSheet lot: LOT202603-K74]
+76,2026-04-03 00:00:00,ESTEBAN,Piña con chile,,exit,4,YAAXTAL [AppSheet lot: LOT202603-K76]
+77,2026-04-03 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,28,YAAXTAL [AppSheet lot: LOT202602-K69]
+78,2026-04-03 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,3,YAAXTAL [AppSheet lot: LOT202603-K76]
+79,2026-04-03 00:00:00,CAROLINA,Limón con hierbabuena,LOT202603-K80,entry,44,EMBOTELLADO
+80,2026-04-04 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K70]
+81,2026-04-04 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K76]
+82,2026-04-04 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202602-K71]
+83,2026-04-04 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,PANCHO MAIZ [AppSheet lot: LOT202602-K71]
+84,2026-04-04 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,PANCHO MAIZ [AppSheet lot: LOT202603-K73]
+85,2026-04-04 00:00:00,ESTEBAN,Piña con chile,,exit,10,PANCHO MAIZ [AppSheet lot: LOT202603-K76]
+86,2026-04-04 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,10,PANZHO MAIZ [AppSheet lot: LOT202602-K70]
+87,2026-04-04 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,10,PANCHO MAIZ [AppSheet lot: LOT202603-K80]
+88,2026-04-04 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,10,PANCHO MAIZ [AppSheet lot: LOT202603-K76]
+89,2026-04-06 00:00:00,ESTEBAN,Piña con chile,,exit,12,NITIDO [AppSheet lot: LOT202603-K76]
+90,2026-04-06 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,NITIDO [AppSheet lot: LOT202603-K80]
+91,2026-04-06 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,4,DDC [AppSheet lot: LOT202603-K73]
+92,2026-04-06 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,CUANDO FLOTAS [AppSheet lot: LOT202603-K80]
+93,2026-04-06 00:00:00,CAROLINA,Piña con chile,,exit,2,CUANDO FLOTAS [AppSheet lot: LOT202603-K76]
+94,2026-04-06 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,CUANDO FLOTAS [AppSheet lot: LOT202603-K76]
+95,2026-04-07 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K73]
+96,2026-04-07 00:00:00,CAROLINA,Limón con hierbabuena,LOT202603-K80,entry,50,EMBOTELLADO
+97,2026-04-07 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202603-K79,entry,49,EMBOTELLADO
+98,2026-04-07 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,FLAMEL [AppSheet lot: LOT202603-K80]
+99,2026-04-07 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,4,WELTY [AppSheet lot: LOT202602-K70]
+100,2026-04-07 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,4,WELTY [AppSheet lot: LOT202603-K76]
+101,2026-04-07 00:00:00,ESTEBAN,Piña con chile,,exit,2,WELTY [AppSheet lot: LOT202603-K76]
+102,2026-04-07 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,2,WELTY [AppSheet lot: LOT202603-K73]
+103,2026-04-07 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,5,AROMA A PAN [AppSheet lot: LOT202602-K70]
+104,2026-04-07 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,3,AROMA A PAN [AppSheet lot: LOT202603-K79]
+105,2026-04-07 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,8,AROMA A PAN [AppSheet lot: LOT202603-K76]
+106,2026-04-08 00:00:00,CAROLINA,Piña con chile,,exit,7,DIRECTA [AppSheet lot: LOT202603-K76]
+107,2026-04-08 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K79]
+108,2026-04-08 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,4,DIRECTA [AppSheet lot: LOT202603-K73]
+109,2026-04-08 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,DIRECTA [AppSheet lot: LOT202603-K80]
+110,2026-04-08 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K76]
+111,2026-04-09 00:00:00,ESTEBAN,Piña con chile,,exit,3,DIRECTA [AppSheet lot: LOT202603-K76]
+112,2026-04-09 00:00:00,CAROLINA,Piña con chile,LOT202603-K76,entry,33,EMBOTELLADO
+113,2026-04-09 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,4,DIRECTA [AppSheet lot: LOT202603-K73]
+114,2026-04-09 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,CAFÉ LOCO [AppSheet lot: LOT202603-K80]
+115,2026-04-09 00:00:00,CAROLINA,Piña con chile,,exit,1,CAFÉ LOCO [AppSheet lot: LOT202603-K76]
+116,2026-04-09 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,CAFÉ LOCO [AppSheet lot: LOT202603-K76]
+117,2026-04-09 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,CAFÉ LOCO [AppSheet lot: LOT202603-K79]
+118,2026-04-10 00:00:00,ESTEBAN,Piña con chile,,exit,12,TAMA SHOKUDO [AppSheet lot: LOT202603-K76]
+119,2026-04-10 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,12,TAMA SHOKUDO [AppSheet lot: LOT202603-K79]
+120,2026-04-10 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202603-K78,entry,52,EMBOTELLADO
+121,2026-04-10 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202603-K79,entry,48,EMBOTELLADO
+122,2026-04-10 00:00:00,CAROLINA,Limón con hierbabuena,LOT202603-K80,entry,51,EMBOTELLADO
+123,2026-04-10 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202603-K76]
+124,2026-04-12 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,14,HUMO [AppSheet lot: LOT202603-K80]
+125,2026-04-12 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,5,HUMO [AppSheet lot: LOT202603-K76]
+126,2026-04-12 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,HUMO [AppSheet lot: LOT202603-K73]
+127,2026-04-12 00:00:00,ESTEBAN,Piña con chile,,exit,4,BEGOÑA [AppSheet lot: LOT202603-K76]
+128,2026-04-14 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,1,SEBAS [AppSheet lot: LOT202603-K76]
+129,2026-04-14 00:00:00,ESTEBAN,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202603-K76]
+130,2026-04-14 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,5,CATALINA [AppSheet lot: LOT202603-K76]
+131,2026-04-14 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,5,CATALINA [AppSheet lot: LOT202603-K73]
+132,2026-04-14 00:00:00,CAROLINA,Piña con chile,,exit,3,EMBOTELLADO [AppSheet lot: LOT202603-K76]
+133,2026-04-14 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K79]
+134,2026-04-15 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K73]
+135,2026-04-15 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K79]
+136,2026-04-15 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K73]
+137,2026-04-15 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202603-K78]
+138,2026-04-20 00:00:00,CAROLINA,Piña con chile,LOT202604-K85,entry,42,EMBOTELLDO
+139,2026-04-20 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,2,DIRECTA [AppSheet lot: LOT202603-K79]
+140,2026-04-20 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202603-K80]
+141,2026-04-20 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202603-K79]
+142,2026-04-21 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202604-K86,entry,52,EMBOTELLADO
+143,2026-04-21 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202603-K79]
+144,2026-04-22 00:00:00,CAROLINA,Limón con hierbabuena,LOT202603-K80,entry,47,EMBOTELLADO
+145,2026-04-23 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202603-K78,entry,38,EMBOTELLADO
+146,2026-04-23 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202604-K84,entry,47,EMBOTELLADO
+147,2026-04-28 00:00:00,CAROLINA,Piña con chile,LOT202604-K85,entry,42,EMBOTELLADO
+148,2026-04-30 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202604-K86,entry,50,EMBOTELLADO
+149,2026-04-30 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202604-K84,entry,50,EMBOTELLADO
+150,2026-05-10 00:00:00,ESTEBAN,Limón con hierbabuena,LOT202603-K73,entry,3,PRUEBA
+151,2026-05-10 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,76,AJUSTE [AppSheet lot: LOT202604-K86]
+152,2026-05-10 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,25,AJUSTE [AppSheet lot: LOT202603-K79]
+153,2026-05-10 00:00:00,ESTEBAN,Naranja con coriandro y clavo,LOT202605-K90,entry,48,AJUSTE
+154,2026-05-10 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,12,AJUSTE [AppSheet lot: LOT202603-K73]
+155,2026-05-10 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,46,AJUSTE [AppSheet lot: LOT202603-K79]
+156,2026-05-10 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,47,AJUSTE [AppSheet lot: LOT202604-K84]
+157,2026-05-10 00:00:00,ESTEBAN,Jengibre con cardamomo,LOT202605-K90,entry,34,AJUSTE
+158,2026-05-10 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,3,AJUSTE [AppSheet lot: LOT202603-K73]
+159,2026-05-10 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,138,AJUSTE [AppSheet lot: LOT202603-K80]
+160,2026-05-10 00:00:00,ESTEBAN,Limón con hierbabuena,LOT202605-K88,entry,96,AJUSTE
+161,2026-05-10 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,6,AJUSTE [AppSheet lot: LOT202603-K76]
+162,2026-05-10 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,89,AJUSTE [AppSheet lot: LOT202603-K78]
+163,2026-05-10 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,50,AJUSTE [AppSheet lot: LOT202604-K84]
+164,2026-05-10 00:00:00,ESTEBAN,Jamaica con lúpulo,LOT202605-K84,entry,25,AJUSTE
+165,2026-05-10 00:00:00,ESTEBAN,Piña con chile,,exit,26,AJUSTE [AppSheet lot: LOT202603-K76]
+166,2026-05-10 00:00:00,ESTEBAN,Piña con chile,,exit,80,AJUSTE [AppSheet lot: LOT202604-K85]
+167,2026-05-10 00:00:00,ESTEBAN,Piña con chile,LOT202605-K89,entry,46,AJUSTE
+168,2026-05-10 00:00:00,ESTEBAN,Earl grey,LOT202604-K82,entry,10,AJUSTE
+169,2026-05-12 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202604-K94,entry,46,EMBOTELLDO
+170,2026-05-12 00:00:00,CAROLINA,Flores,LOT202604-K91,entry,43,EMBOTELLADO
+171,2026-05-12 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,CORTESÍA [AppSheet lot: LOT202605-K88]
+172,2026-05-12 00:00:00,CAROLINA,Earl grey,,exit,3,REDES [AppSheet lot: LOT202604-K82]
+173,2026-05-12 00:00:00,CAROLINA,Earl grey,,exit,1,CORTESÍA [AppSheet lot: LOT202604-K82]
+174,2026-05-13 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,8,FLAMEL [AppSheet lot: LOT202605-K88]
+175,2026-05-13 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,4,BAR DE BARRIO [AppSheet lot: LOT202605-K88]
+176,2026-05-13 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,7,NITIDO MONTEJO [AppSheet lot: LOT202605-K88]
+177,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,4,NITIDO MONTEJO [AppSheet lot: LOT202604-K85]
+178,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,4,NITIDO MONTEJO [AppSheet lot: LOT202605-K89]
+179,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,5,CATALINA [AppSheet lot: LOT202605-K89]
+180,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,8,BAR DE BARRIO [AppSheet lot: LOT202605-K89]
+181,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,1,AJUSTE [AppSheet lot: LOT202605-K89]
+182,2026-05-13 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,11,FLAMEL [AppSheet lot: LOT202604-K86]
+183,2026-05-13 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,4,BAR DE BARRIO [AppSheet lot: LOT202604-K86]
+184,2026-05-13 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,5,CATALINA [AppSheet lot: LOT202605-K84]
+185,2026-05-13 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,8,BAR DE BARRIO [AppSheet lot: LOT202605-K84]
+186,2026-05-13 00:00:00,ESTEBAN,Earl grey,,exit,5,CATALINA [AppSheet lot: LOT202604-K82]
+187,2026-05-13 00:00:00,ESTEBAN,Earl grey,,exit,1,NITIDO FRANCISCO [AppSheet lot: LOT202604-K82]
+188,2026-05-13 00:00:00,ESTEBAN,Flores,,exit,4,CHISPA NEGRA [AppSheet lot: LOT202604-K91]
+189,2026-05-13 00:00:00,ESTEBAN,Flores,,exit,6,MOMU [AppSheet lot: LOT202604-K91]
+190,2026-05-13 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,4,CHISPA NEGRA [AppSheet lot: LOT202604-K84]
+191,2026-05-13 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,6,MOMU [AppSheet lot: LOT202605-K84]
+192,2026-05-13 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,4,AJUSTE [AppSheet lot: LOT202605-K84]
+193,2026-05-13 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,4,CHISPA NEGRA [AppSheet lot: LOT202605-K90]
+194,2026-05-13 00:00:00,ESTEBAN,Piña con chile,,exit,4,CHISPA NEGRA [AppSheet lot: LOT202605-K89]
+195,2026-05-13 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,6,MOMU [AppSheet lot: LOT202605-K88]
+196,2026-05-13 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K90]
+197,2026-05-13 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,5,FLAMEL [AppSheet lot: LOT202604-K86]
+198,2026-05-13 00:00:00,CAROLINA,Limón con hierbabuena,,exit,5,FLAMEL [AppSheet lot: LOT202605-K88]
+199,2026-05-14 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,2,CATALINA [AppSheet lot: LOT202605-K84]
+200,2026-05-14 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,4,CATALINA [AppSheet lot: LOT202605-K88]
+201,2026-05-14 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,4,CATALINA [AppSheet lot: LOT202604-K86]
+202,2026-05-15 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202604-K94,entry,47,EMBOTELLADO
+203,2026-05-15 00:00:00,CAROLINA,Piña con chile,LOT202605-K89,entry,46,EMBOTELLADO
+204,2026-05-15 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202605-K88]
+205,2026-05-15 00:00:00,CAROLINA,Naranja con coriandro y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K90]
+206,2026-05-15 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,3,DIRECTA [AppSheet lot: LOT202605-K90]
+207,2026-05-15 00:00:00,CAROLINA,Flores,,exit,1,DIRECTA [AppSheet lot: LOT202604-K91]
+208,2026-05-16 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,2,AROMA CENTRO [AppSheet lot: LOT202604-K86]
+209,2026-05-16 00:00:00,ESTEBAN,Naranja con coriandro y clavo,,exit,6,AROMA CENTRO [AppSheet lot: LOT202605-K90]
+210,2026-05-16 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,8,AROMA CENTRO [AppSheet lot: LOT202605-K90]
+211,2026-05-16 00:00:00,ESTEBAN,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202605-K89]
+212,2026-05-20 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202605-K94,entry,46,EMBOTELLADO
+213,2026-05-20 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K90]
+214,2026-05-20 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202604-K94]
+215,2026-05-20 00:00:00,CAROLINA,Flores,,exit,1,DIRECTA [AppSheet lot: LOT202604-K91]
+216,2026-05-25 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,60,AJUSTE [AppSheet lot: LOT202605-K88]
+217,2026-05-25 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,17,AJUSTE [AppSheet lot: LOT202605-K90]
+218,2026-05-25 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,14,AJUSTE [AppSheet lot: LOT202604-K94]
+219,2026-05-25 00:00:00,ESTEBAN,Flores,,exit,31,AJUSTE [AppSheet lot: LOT202604-K91]
+220,2026-05-25 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,32,AJUSTE [AppSheet lot: LOT202604-K94]
+221,2026-05-25 00:00:00,ESTEBAN,Piña con chile,,exit,69,AJUSTE [AppSheet lot: LOT202605-K89]
+222,2026-05-25 00:00:00,ESTEBAN,Naranja con coriandro y clavo,,exit,22,AJUSTE [AppSheet lot: LOT202605-K90]
+223,2026-05-25 00:00:00,ESTEBAN,Naranja con coriandro y clavo,,exit,10,PANCHO MAIZ [AppSheet lot: LOT202605-K90]
+224,2026-05-25 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,22,AMAZA [AppSheet lot: LOT202604-K94]
+225,2026-05-26 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,17,AJUSTE [AppSheet lot: LOT202605-K90]
+226,2026-05-26 00:00:00,CAROLINA,Naranja con coriandro y clavo,,exit,41,AJUSTE [AppSheet lot: LOT202605-K90]
+227,2026-05-26 00:00:00,CAROLINA,Piña con chile,,exit,69,AJUSTE [AppSheet lot: LOT202605-K89]
+228,2026-05-26 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,46,AJUSTE [AppSheet lot: LOT202604-K94]
+229,2026-05-26 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,46,AJUSTE [AppSheet lot: LOT202604-K94]
+230,2026-05-26 00:00:00,CAROLINA,Flores,,exit,31,AJUSTE [AppSheet lot: LOT202604-K91]
+231,2026-05-26 00:00:00,CAROLINA,Limón con hierbabuena,LOT202605-K88,entry,45,EMBOTELLADO
+232,2026-05-26 00:00:00,CAROLINA,Piña con chile,LOT202605-K95,entry,43,EMBOTELLADO
+233,2026-05-26 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202604-K92,entry,26,EMBOTELLADO
+234,2026-05-26 00:00:00,CAROLINA,Earl grey,LOT202605-K98,entry,45,EMBOTELLADO
+235,2026-05-26 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202605-K97,entry,48,EMBOTELLADO
+236,2026-05-26 00:00:00,CAROLINA,Limón con hierbabuena,,exit,39,FLAMEL/TAMA [AppSheet lot: LOT202605-K88]
+237,2026-05-26 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,9,FLAMEL/CATALINA [AppSheet lot: LOT202605-K94]
+238,2026-05-26 00:00:00,CAROLINA,Earl grey,,exit,16,Tama/Catalina [AppSheet lot: LOT202605-K98]
+239,2026-05-26 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,4,Catalina [AppSheet lot: LOT202604-K92]
+240,2026-05-26 00:00:00,CAROLINA,Piña con chile,,exit,4,Catalina [AppSheet lot: LOT202605-K95]
+241,2026-05-26 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,4,Catalina [AppSheet lot: LOT202605-K97]
+242,2026-05-26 00:00:00,CAROLINA,Limón con hierbabuena,,exit,6,NÍTIDO [AppSheet lot: LOT202605-K88]
+243,2026-05-26 00:00:00,CAROLINA,Piña con chile,,exit,9,NÍTIDO [AppSheet lot: LOT202605-K95]
+244,2026-05-26 00:00:00,CAROLINA,Earl grey,,exit,9,NÍTIDO [AppSheet lot: LOT202605-K98]
+245,2026-05-28 00:00:00,CAROLINA,Earl grey,,exit,2,DIRECTA [AppSheet lot: LOT202605-K98]
+246,2026-05-28 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K97]
+247,2026-05-28 00:00:00,CAROLINA,Limón con hierbabuena,LOT202605-K97,entry,47,EMBOTELLADO
+248,2026-05-28 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202605-K98]
+249,2026-05-28 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K97]
+250,2026-05-28 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202604-K92]
+251,2026-05-28 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K94]
+252,2026-05-28 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202605-K95]
+253,2026-05-29 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202605-K98,entry,47,EMBOTELLADO
+254,2026-05-29 00:00:00,CAROLINA,Piña con chile,LOT202605-K95,entry,48,EMBOTELLADO
+255,2026-05-30 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,4,MUR MURA [AppSheet lot: LOT202604-K92]
+256,2026-05-30 00:00:00,ESTEBAN,Jengibre con cardamomo,,exit,4,MUR MURA [AppSheet lot: LOT202605-K97]
+257,2026-05-30 00:00:00,ESTEBAN,Earl grey,,exit,4,MUR MURA [AppSheet lot: LOT202605-K98]
+258,2026-05-30 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,24,HUMO [AppSheet lot: LOT202605-K97]
+259,2026-05-30 00:00:00,ESTEBAN,Piña con chile,,exit,4,DOMI [AppSheet lot: LOT202605-K95]
+260,2026-05-30 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,4,DOMI [AppSheet lot: LOT202604-K92]
+261,2026-05-30 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,2,DOMI [AppSheet lot: LOT202605-K97]
+262,2026-05-30 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,2,DOMI [AppSheet lot: LOT202605-K94]
+263,2026-05-30 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,8,AROMA NORTE [AppSheet lot: LOT202604-K92]
+264,2026-05-30 00:00:00,ESTEBAN,Naranja con albahaca y clavo,,exit,8,AROMA NORTE [AppSheet lot: LOT202605-K94]
+265,2026-06-04 00:00:00,CAROLINA,Limón con hierbabuena,,exit,15,AJUSTE [AppSheet lot: LOT202605-K97]
+266,2026-06-04 00:00:00,CAROLINA,Earl grey,,exit,10,AJUSTE [AppSheet lot: LOT202605-K98]
+267,2026-06-04 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,6,AJUSTE [AppSheet lot: LOT202605-K94]
+268,2026-06-04 00:00:00,CAROLINA,Piña con chile,,exit,9,AJUSTE [AppSheet lot: LOT202605-K95]
+269,2026-06-04 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,8,AJUSTE [AppSheet lot: LOT202605-K97]
+270,2026-06-04 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,5,AJUSTE [AppSheet lot: LOT202604-K92]
+271,2026-06-05 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,20,FLAMEL/AJUSTE [AppSheet lot: LOT202605-K94]
+272,2026-06-05 00:00:00,ESTEBAN,Earl grey,,exit,3,TAMA [AppSheet lot: LOT202605-K98]
+273,2026-06-05 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,DIRECTA [AppSheet lot: LOT202605-K98]
+274,2026-06-05 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202605-K95]
+275,2026-06-05 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,9,DIRECTA/AJUSTE [AppSheet lot: LOT202605-K97]
+276,2026-06-05 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,6,TAMA [AppSheet lot: LOT202605-K97]
+277,2026-06-05 00:00:00,CAROLINA,Limón con hierbabuena,LOT202605-K97,entry,46,EMBOTELLADO
+278,2026-06-05 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202605-K95,entry,46,EMBOTELLADO
+279,2026-06-05 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202605-K96,entry,47,EMBOTELLADO
+280,2026-06-05 00:00:00,CAROLINA,Naranja con albahaca y clavo,LOT202604-K90,entry,48,EMBOTELLADO
+281,2026-06-11 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,AJUSTE [AppSheet lot: LOT202605-K96]
+282,2026-06-11 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,12,AJUSTE [AppSheet lot: LOT202604-K90]
+283,2026-06-11 00:00:00,CAROLINA,Limón con hierbabuena,LOT202605-K102,entry,26,AJUSTE
+284,2026-06-11 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,17,AJUSTE [AppSheet lot: LOT202605-K97]
+285,2026-06-11 00:00:00,CAROLINA,Earl grey,LOT202605-K104,entry,39,AJUSTE
+286,2026-06-11 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202605-K101,entry,17,AJUSTE
+287,2026-06-11 00:00:00,CAROLINA,Piña con chile,LOT202605-K100,entry,36,AJUSTE
+288,2026-06-11 00:00:00,CAROLINA,Piña con chile,,exit,2,DIRECTA [AppSheet lot: LOT202605-K100]
+289,2026-06-11 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202605-K97]
+290,2026-06-11 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202605-K104]
+291,2026-06-11 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K101]
+292,2026-06-12 00:00:00,ESTEBAN,Piña con chile,,exit,2,directa [AppSheet lot: LOT202605-K100]
+293,2026-06-12 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,1,directa [AppSheet lot: LOT202605-K97]
+294,2026-06-12 00:00:00,ESTEBAN,Earl grey,,exit,1,directa [AppSheet lot: LOT202605-K104]
+295,2026-06-12 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,1,directa [AppSheet lot: LOT202605-K101]
+296,2026-06-12 00:00:00,CAROLINA,Limón con hierbabuena,LOT202605-K102,entry,44,EMBOTELLADO
+297,2026-06-12 00:00:00,CAROLINA,Piña con chile,LOT202605-K100,entry,21,EMBOTELLADO
+298,2026-06-12 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202605-K102]
+299,2026-06-12 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202605-K100]
+300,2026-06-12 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K101]
+301,2026-06-12 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K96]
+302,2026-06-12 00:00:00,CAROLINA,Piña con chile,,exit,12,DIRECTA [AppSheet lot: LOT202605-K100]
+303,2026-06-12 00:00:00,CAROLINA,Limón con hierbabuena,,exit,12,DIRECTA [AppSheet lot: LOT202605-K102]
+304,2026-06-12 00:00:00,ESTEBAN,Limón con hierbabuena,,exit,12,AMAZA [AppSheet lot: LOT202605-K102]
+305,2026-06-12 00:00:00,CAROLINA,Limón con hierbabuena,,exit,44,AJUSTE [AppSheet lot: LOT202605-K97]
+306,2026-06-12 00:00:00,ESTEBAN,Jamaica con lúpulo,,exit,12,AMAZA [AppSheet lot: LOT202605-K101]
+307,2026-06-12 00:00:00,CAROLINA,Piña con chile,,exit,63,AJUSTE [AppSheet lot: LOT202605-K95]
+308,2026-06-12 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,45,AJUSTE [AppSheet lot: LOT202605-K98]
+309,2026-06-16 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,DIRECTA [AppSheet lot: LOT202605-K101]
+310,2026-06-16 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202605-K104]
+311,2026-06-16 00:00:00,CAROLINA,Piña con chile,,exit,1,DIRECTA [AppSheet lot: LOT202605-K100]
+312,2026-06-16 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202605-K102]
+313,2026-06-16 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K96]
+314,2026-06-16 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K95]
+315,2026-06-16 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202605-K101,entry,42,EMBOTELLDO
+316,2026-06-17 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202605-K99,entry,44,EMBOTELLADO
+317,2026-06-17 00:00:00,CAROLINA,Earl grey,LOT202605-K103,entry,48,EMBOTELLADO
+318,2026-06-17 00:00:00,CAROLINA,Naranja con coriandro y clavo,,exit,5,FLAMEL [AppSheet lot: LOT202605-K96]
+319,2026-06-17 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,2,DIRECTA [AppSheet lot: LOT202605-K99]
+320,2026-06-17 00:00:00,CAROLINA,Naranja con coriandro y clavo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K96]
+321,2026-06-17 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202605-K104]
+322,2026-06-19 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,3,DIRECTA [AppSheet lot: LOT202605-K96]
+323,2026-06-19 00:00:00,CAROLINA,Piña con chile,,exit,2,DIRECTA [AppSheet lot: LOT202605-K100]
+324,2026-06-19 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K95]
+325,2026-06-19 00:00:00,CAROLINA,Earl grey,,exit,2,DIRECTA [AppSheet lot: LOT202605-K104]
+326,2026-06-19 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,DIRECTA [AppSheet lot: LOT202605-K102]
+327,2026-06-19 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K101]
+328,2026-06-19 00:00:00,CAROLINA,Piña con chile,LOT202605-K100,entry,16,EMBOTELLADO
+329,2026-06-19 00:00:00,CAROLINA,Limón con hierbabuena,LOT202606-K108,entry,48,EMBOTELLADO
+330,2026-06-19 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202605-K95]
+331,2026-06-19 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,5,AJUSTE [AppSheet lot: LOT202605-K95]
+332,2026-06-19 00:00:00,CAROLINA,Earl grey,,exit,16,AJUSTE [AppSheet lot: LOT202605-K104]
+333,2026-06-19 00:00:00,CAROLINA,Limón con hierbabuena,,exit,26,AJUSTE [AppSheet lot: LOT202605-K102]
+334,2026-06-19 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202605-K96,entry,23,AJUSTE
+335,2026-06-19 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,34,AJUSTE [AppSheet lot: LOT202605-K96]
+336,2026-06-19 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,34,AJUSTE [AppSheet lot: LOT202605-K101]
+337,2026-06-19 00:00:00,CAROLINA,Piña con chile,,exit,12,AJUSTE [AppSheet lot: LOT202605-K100]
+338,2026-06-19 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,AJUSTE [AppSheet lot: LOT202604-K90]
+339,2026-06-19 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,4,AJUSTE [AppSheet lot: LOT202605-K97]
+340,2026-06-23 00:00:00,CAROLINA,Flores,,exit,48,TAMA [AppSheet lot: LOT202606-K105]
+341,2026-06-23 00:00:00,CAROLINA,Limón con hierbabuena,,exit,12,DIRECTA [AppSheet lot: LOT202605-K102]
+342,2026-06-23 00:00:00,CAROLINA,Flores,,exit,12,DIRECTA [AppSheet lot: LOT202606-K105]
+343,2026-06-23 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,[AppSheet lot: LOT202605-K102]
+344,2026-06-24 00:00:00,CAROLINA,Limón con hierbabuena,LOT202606-K108,entry,48,EMBOTELLADO
+345,2026-06-24 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202606-K108,entry,47,EMBOTELLADO
+346,2026-06-26 00:00:00,CAROLINA,Piña con chile,,exit,30,AJUSTE [AppSheet lot: LOT202605-K100]
+347,2026-06-26 00:00:00,CAROLINA,Earl grey,,exit,13,AJUSTE [AppSheet lot: LOT202605-K104]
+348,2026-06-26 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,1,AJUSTE [AppSheet lot: LOT202604-K90]
+349,2026-06-26 00:00:00,CAROLINA,Flores,LOT202606-K105,entry,43,EMBOTELLADO
+350,2026-06-26 00:00:00,CAROLINA,Limón con hierbabuena,,exit,25,AJUSTE [AppSheet lot: LOT202606-K108]
+351,2026-06-26 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,6,AJUSTE [AppSheet lot: LOT202606-K108]
+352,2026-06-26 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,12,AJUSTE [AppSheet lot: LOT202605-K99]
+353,2026-06-26 00:00:00,CAROLINA,Naranja,LOT202606-K106,entry,48,EMBOTELLADO
+354,2026-06-26 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,AJUSTE [AppSheet lot: LOT202605-K102]
+355,2026-06-26 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,7,AJUSTE [AppSheet lot: LOT202605-K101]
+356,2026-06-26 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,23,AJUSTE [AppSheet lot: LOT202605-K96]
+357,2026-06-26 00:00:00,CAROLINA,Naranja con coriandro y clavo,,exit,7,AJUSTE [AppSheet lot: LOT202605-K96]
+358,2026-06-26 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,38,AJUSTE [AppSheet lot: LOT202605-K95]
+359,2026-06-26 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,7,AJUSTE [AppSheet lot: LOT202605-K96]
+360,2026-07-01 00:00:00,CAROLINA,Limón con hierbabuena,,exit,64,AJUSTE [AppSheet lot: LOT202606-K108]
+361,2026-07-01 00:00:00,CAROLINA,Piña con chile,LOT202606-K107,entry,11,AJUSTE
+362,2026-07-01 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,20,AJUSTE [AppSheet lot: LOT202604-K90]
+363,2026-07-01 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,5,AJUSTE [AppSheet lot: LOT202605-K99]
+364,2026-07-01 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,13,AJUSTE [AppSheet lot: LOT202606-K108]
+365,2026-07-01 00:00:00,CAROLINA,Earl grey,,exit,15,AJUSTE [AppSheet lot: LOT202605-K103]
+366,2026-07-01 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202606-K106,entry,47,AJUSTE
+367,2026-07-01 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202606-K101,entry,47,AJUSTE
+368,2026-07-01 00:00:00,CAROLINA,Piña con chile,,exit,11,AJUSTE [AppSheet lot: LOT202605-K100]
+369,2026-07-01 00:00:00,CAROLINA,Earl grey,,exit,4,AJUSTE [AppSheet lot: LOT202605-K104]
+370,2026-07-03 00:00:00,CAROLINA,Limón con hierbabuena,LOT202606-K113,entry,47,EMBOTELLADO
+371,2026-07-03 00:00:00,CAROLINA,Earl grey,LOT202606-K111,entry,48,EMBOTELLADO
+372,2026-07-03 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,16,AJUSTE [AppSheet lot: LOT202606-K106]
+373,2026-07-03 00:00:00,CAROLINA,Naranja,,exit,16,AJUSTE [AppSheet lot: LOT202606-K106]
+374,2026-07-03 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,24,AJUSTE [AppSheet lot: LOT202605-K99]
+375,2026-07-03 00:00:00,CAROLINA,Earl grey,,exit,19,AJUSTE [AppSheet lot: LOT202605-K103]
+376,2026-07-03 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,32,AJUSTE [AppSheet lot: LOT202606-K108]
+377,2026-07-03 00:00:00,CAROLINA,Limón con hierbabuena,,exit,7,AJUSTE [AppSheet lot: LOT202606-K108]
+378,2026-07-03 00:00:00,CAROLINA,Piña con chile,,exit,11,AJUSTE [AppSheet lot: LOT202606-K107]
+379,2026-07-03 00:00:00,CAROLINA,Naranja con albahaca y clavo,,exit,14,AJUSTE [AppSheet lot: LOT202604-K90]
+380,2026-07-07 00:00:00,CAROLINA,Limón con hierbabuena,LOT202606-K113,entry,39,EMBOTELLADO
+381,2026-07-07 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,18,AJUSTE [AppSheet lot: LOT202606-K106]
+382,2026-07-07 00:00:00,CAROLINA,Naranja,,exit,28,AJUSTE [AppSheet lot: LOT202606-K106]
+383,2026-07-07 00:00:00,CAROLINA,Flores,LOT202605-K115,entry,35,EMBOTELLADO
+384,2026-07-07 00:00:00,CAROLINA,Piña con chile,LOT202606-K112,entry,40,EMBOTELLADO
+385,2026-07-07 00:00:00,CAROLINA,Jamaica con lúpulo,LOT202606-K107,entry,40,EMBOTELLADO
+386,2026-07-07 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202606-K111]
+387,2026-07-07 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,9,AJUSTE [AppSheet lot: LOT202606-K101]
+388,2026-07-07 00:00:00,CAROLINA,Earl grey,,exit,14,AJUSTE [AppSheet lot: LOT202605-K103]
+389,2026-07-07 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,AJUSTE [AppSheet lot: LOT202605-K99]
+390,2026-07-08 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,AJUSTE [AppSheet lot: LOT202606-K106]
+391,2026-07-08 00:00:00,CAROLINA,Limón con hierbabuena,,exit,2,AJUSTE [AppSheet lot: LOT202606-K113]
+392,2026-07-08 00:00:00,CAROLINA,Naranja,,exit,3,AJUSTE [AppSheet lot: LOT202606-K106]
+393,2026-07-08 00:00:00,CAROLINA,Piña con chile,,exit,3,AJUSTE [AppSheet lot: LOT202606-K112]
+394,2026-07-08 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,8,AJUSTE [AppSheet lot: LOT202606-K101]
+395,2026-07-08 00:00:00,CAROLINA,Limón con hierbabuena,,exit,5,FLAMEL [AppSheet lot: LOT202606-K113]
+396,2026-07-08 00:00:00,CAROLINA,Flores,,exit,1,DIRECTA [AppSheet lot: LOT202605-K115]
+397,2026-07-09 00:00:00,CAROLINA,Jengibre con cardamomo,LOT202606-K112,entry,46,EMBOTELLADO
+398,2026-07-09 00:00:00,CAROLINA,Flores,LOT202605-K115,entry,35,EMBOTELLADO
+399,2026-07-09 00:00:00,CAROLINA,Piña con chile,,exit,30,VENZZE [AppSheet lot: LOT202606-K112]
+400,2026-07-10 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,7,BARETTO [AppSheet lot: LOT202606-K101]
+401,2026-07-10 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,1,BARETTO [AppSheet lot: LOT202606-K106]
+402,2026-07-10 00:00:00,CAROLINA,Naranja,,exit,1,DIRECTA [AppSheet lot: LOT202606-K106]
+403,2026-07-10 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,1,DIRECTA [AppSheet lot: LOT202606-K112]
+404,2026-07-10 00:00:00,CAROLINA,Earl grey,,exit,1,DIRECTA [AppSheet lot: LOT202606-K111]
+405,2026-07-10 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,10,NIDITO [AppSheet lot: LOT202606-K106]
+406,2026-07-10 00:00:00,CAROLINA,Jamaica con lúpulo,,exit,2,NÍTIDO [AppSheet lot: LOT202606-K107]
+407,2026-07-10 00:00:00,CAROLINA,Earl grey,,exit,12,NÍTIDO [AppSheet lot: LOT202606-K111]
+408,2026-07-10 00:00:00,CAROLINA,Piña con chile,LOT202606-K112,entry,45,EMBOTELLADO
+409,2026-07-10 00:00:00,CAROLINA,Naranja,LOT202606-K114,entry,52,EMBOTELLADO
+410,2026-07-10 00:00:00,CAROLINA,Naranja,,exit,1,DIRECTA [AppSheet lot: LOT202606-K114]
+411,2026-07-10 00:00:00,CAROLINA,Earl grey,,exit,2,DIRECTA [AppSheet lot: LOT202606-K111]
+412,2026-07-10 00:00:00,CAROLINA,Jengibre con cardamomo,,exit,3,DIRECTA [AppSheet lot: LOT202606-K101]
+413,2026-07-10 00:00:00,CAROLINA,Limón con hierbabuena,,exit,1,DIRECTA [AppSheet lot: LOT202606-K113]
+414,2026-07-10 00:00:00,CAROLINA,Naranja,,exit,1,DIRECTA [AppSheet lot: LOT202606-K114]
