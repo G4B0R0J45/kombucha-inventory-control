@@ -12,6 +12,8 @@ de Yucatán (May–August 2026). Author: Gabriel Enrique Rojas Velázquez.
 
 - Python 3.10+ (standard library only for the main program).
 - Optional, for QR labels: `pip install qrcode[pil]`
+- Optional, for PNG sales charts: `sudo apt install python3-matplotlib`
+  (or `pip install matplotlib`)
 
 ## Quick start
 
@@ -31,8 +33,8 @@ On first run the program creates its data files next to the script.
 | 2 | View current inventory: total per flavor, minimum, LOW STOCK alert, and a per-lot breakdown. |
 | 3 | View the movement history (last 15 by default; `a` shows all, or type a flavor to filter). |
 | 4 | Correct or delete one movement by ID. Changes are validated against the whole history before saving. |
-| 5 | Catalog editor: add / rename / delete flavors, change minimums, manage staff. |
-| 6 | Sales report: bottles out per flavor and per month, derived from the history. |
+| 5 | Catalog editor: add / rename / delete flavors, change minimums, manage staff. Existing flavors are picked by number (or by scanning their FLAVOR label), never retyped. |
+| 6 | Sales report: bottles out per flavor and per month, derived from the history. Can also save the report as PNG bar charts in `reports/` (needs matplotlib). |
 | 7 | Exit. |
 
 ## Data files
@@ -43,6 +45,7 @@ On first run the program creates its data files next to the script.
 | `inventory_data.json` | Catalog only: flavors with their `minimum_stock`, and the staff list. It does not store stock. |
 | `logs/YYYY-MM-DD.log` | Daily application log (INFO / WARNING / ERROR). |
 | `labels/` | PNG labels produced by `generate_lot_label.py`. |
+| `reports/` | PNG sales charts produced by option 6 (derived output, safe to ignore in git). |
 
 ## How stock works (design decisions)
 

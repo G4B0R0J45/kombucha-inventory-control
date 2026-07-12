@@ -1,3 +1,4 @@
 logs/
 __pycache__/
 backup_pre_import/
+reports/

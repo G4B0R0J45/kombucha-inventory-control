@@ -53,6 +53,7 @@ logger = logging.getLogger(__name__)
 # and so that Excel displays accented flavor names correctly.
 DATA_FILE = os.path.join(SCRIPT_DIR, "inventory_data.json")
 MOVEMENTS_FILE = os.path.join(SCRIPT_DIR, "movements.csv")
+REPORTS_DIR = os.path.join(SCRIPT_DIR, "reports")
 
 CSV_FIELDS = ["movement_id", "date_time", "staff_name", "flavor_name",
               "lot_number", "movement_type", "bottle_quantity", "note"]
@@ -468,6 +469,37 @@ def find_flavor_case_insensitive(catalog, flavor_name):
     return None
 
 
+def pick_existing_flavor(catalog, prompt="Choose a flavor number (Enter to cancel): "):
+    """Numbered pick over the catalog for the editor actions (same idea as
+    the registration flow: no retyping long names). A typed name or a
+    scanned FLAVOR label is accepted too. Returns the name, or None."""
+    flavors = sorted(catalog["flavors"])
+    if not flavors:
+        print("No flavors in the catalog yet.\n")
+        return None
+    print("Flavors:")
+    for position, name in enumerate(flavors, start=1):
+        print(f"{position}. {name}")
+    choice_raw = input(prompt).strip()
+    if not choice_raw:
+        print("Cancelled.\n")
+        return None
+    try:
+        index = int(choice_raw)
+    except ValueError:
+        if looks_like_flavor_label(choice_raw):
+            choice_raw = choice_raw[len(FLAVOR_QR_PREFIX):].strip()
+        existing = find_flavor_case_insensitive(catalog, choice_raw)
+        if existing:
+            return existing
+        print("Error: choose a valid number from the list.\n")
+        return None
+    if not 1 <= index <= len(flavors):
+        print("Error: choose a valid number from the list.\n")
+        return None
+    return flavors[index - 1]
+
+
 def create_flavor(catalog, persist=True):
     """Asks for a new flavor's name and minimum stock and adds it to the
     catalog in memory. Persists it only when persist=True (the registration
@@ -876,6 +908,58 @@ def movement_month(date_text):
     return "unknown"
 
 
+def save_sales_charts(bottles_by_flavor, bottles_by_month):
+    """Renders the sales report as one PNG (two bar charts) in reports/.
+    matplotlib is an optional dependency, like qrcode for the labels: when
+    it is missing, the text report above is all there is. Returns the path
+    of the saved file, or None."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")  # render straight to file: WSL has no display
+        import matplotlib.pyplot as plt
+    except ImportError:
+        print("Charts need matplotlib. Install it with:")
+        print("  sudo apt install python3-matplotlib   (or: pip install matplotlib)")
+        return None
+
+    flavors = sorted(bottles_by_flavor.items(), key=lambda item: item[1])
+    months = sorted(month for month in bottles_by_month if month != "unknown")
+    if "unknown" in bottles_by_month:
+        months.append("unknown")
+
+    figure, (flavor_axis, month_axis) = plt.subplots(
+        2, 1, figsize=(9, 4 + 0.45 * len(flavors)),
+        gridspec_kw={"height_ratios": [max(len(flavors), 2), 5]})
+
+    flavor_axis.barh([name for name, _ in flavors],
+                     [bottles for _, bottles in flavors], color="#3a7ca5")
+    flavor_axis.set_title("Bottles out by flavor")
+    for position, (_, bottles) in enumerate(flavors):
+        flavor_axis.text(bottles, position, f" {bottles}", va="center")
+
+    month_axis.bar(months, [bottles_by_month[month] for month in months],
+                   color="#81a684")
+    month_axis.set_title("Bottles out by month")
+    for position, month in enumerate(months):
+        month_axis.text(position, bottles_by_month[month],
+                        str(bottles_by_month[month]), ha="center", va="bottom")
+
+    figure.suptitle("El Fermentario - Sales report (every exit counts as a sale)")
+    figure.tight_layout()
+
+    path = os.path.join(
+        REPORTS_DIR, f"sales_report_{datetime.now().strftime('%Y-%m-%d_%H%M')}.png")
+    try:
+        os.makedirs(REPORTS_DIR, exist_ok=True)
+        figure.savefig(path, dpi=150)
+    except OSError as e:
+        print(f"ERROR: the chart could not be saved ({e}).")
+        return None
+    finally:
+        plt.close(figure)
+    return path
+
+
 def sales_report(movements):
     """Sales control derived from the source of truth: every EXIT counts as
     a sale (use the note field to flag exceptions such as breakage or
@@ -916,6 +1000,14 @@ def sales_report(movements):
     print(f"Total: {total_bottles} bottles across {len(exits)} exit movements.")
     print()
     logger.info("Sales report displayed (%d exits, %d bottles)", len(exits), total_bottles)
+
+    choice = input("Save this report as PNG charts? (y/n): ").strip().lower()
+    print()
+    if choice == "y":
+        path = save_sales_charts(bottles_by_flavor, bottles_by_month)
+        if path:
+            print(f"Charts saved: {path}\n")
+            logger.info("Sales charts saved to %s", path)
 
 
 # ------------------------------------------------------------
@@ -1059,9 +1151,9 @@ def edit_movement(catalog, movements):
 def rename_flavor(catalog, movements):
     """Renames a flavor and propagates the change to the whole history.
     The history is saved first; the catalog only changes if that succeeds."""
-    old_name = input("Flavor to rename: ").strip()
-    if old_name not in catalog["flavors"]:
-        print("Error: that flavor does not exist.\n")
+    old_name = pick_existing_flavor(
+        catalog, "Flavor to rename (number, Enter to cancel): ")
+    if old_name is None:
         return
     new_name = input("New name: ").strip()
     if not new_name:
@@ -1101,9 +1193,8 @@ def rename_flavor(catalog, movements):
 def change_minimum_stock(catalog, movements):
     """Updates a flavor's minimum stock and shows the resulting status.
     If the catalog cannot be saved, the change is reverted in memory."""
-    flavor_name = input("Flavor: ").strip()
-    if flavor_name not in catalog["flavors"]:
-        print("Error: that flavor does not exist.\n")
+    flavor_name = pick_existing_flavor(catalog)
+    if flavor_name is None:
         return
     current_minimum = catalog["flavors"][flavor_name]["minimum_stock"]
     try:
@@ -1130,9 +1221,9 @@ def change_minimum_stock(catalog, movements):
 def delete_flavor(catalog, movements):
     """Deletes a flavor. If it has history rows, asks for strong confirmation.
     The history is saved first; the catalog only changes if that succeeds."""
-    flavor_name = input("Flavor to delete: ").strip()
-    if flavor_name not in catalog["flavors"]:
-        print("Error: that flavor does not exist.\n")
+    flavor_name = pick_existing_flavor(
+        catalog, "Flavor to delete (number, Enter to cancel): ")
+    if flavor_name is None:
         return
 
     related = [m for m in movements if m["flavor_name"] == flavor_name]
@@ -1148,6 +1239,11 @@ def delete_flavor(catalog, movements):
             print("Deletion cancelled: nothing was changed.\n")
             return
         movements[:] = candidate
+    else:
+        confirm = input(f"Delete '{flavor_name}'? (y/n): ").strip().lower()
+        if confirm != "y":
+            print("Deletion cancelled.\n")
+            return
 
     del catalog["flavors"][flavor_name]
     if not save_catalog(catalog):
